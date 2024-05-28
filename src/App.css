@@ -1,0 +1,136 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.numContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.numRow .numBox:nth-child(1) {
+  background-color: red;
+}
+
+.numRow .numBox:nth-child(2) {
+  background-color: orange;
+}
+
+.numRow .numBox:nth-child(3) {
+  background-color: yellow;
+}
+
+.numRow .numBox:nth-child(4) {
+  background-color: green;
+}
+
+.numRow .numBox:nth-child(5) {
+  background-color: blue;
+}
+
+.numRow .numBox:nth-child(6) {
+  background-color: skyblue;
+}
+
+.numRow .numBox:nth-child(7) {
+  background-color: pink;
+}
+
+.numRow .numBox:nth-child(8) {
+  background-color: purple;
+}
+
+.numRow .numBox:nth-child(9) {
+  background-color: VIOLET;
+}
+
+.numRow {
+  display: flex;
+  justify-content: center;
+}
+
+.numBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.gridContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.gridSquare:nth-child(1) {
+  background-color: red;
+}
+
+.gridSquare:nth-child(2) {
+  background-color: orange;
+}
+
+.gridSquare:nth-child(3) {
+  background-color: yellow;
+}
+
+.gridSquare:nth-child(4) {
+  background-color: green;
+}
+
+.gridSquare:nth-child(5) {
+  background-color: blue;
+}
+
+.gridSquare:nth-child(6) {
+  background-color: skyblue;
+}
+
+.gridSquare:nth-child(7) {
+  background-color: pink;
+}
+
+.gridSquare:nth-child(8) {
+  background-color: purple;
+}
+
+.gridSquare:nth-child(9) {
+  background-color: violet;
+}
+
+.gridSquare {
+  display: flex; 
+  align-items: center;
+  height: 125px;
+  width: 125px;
+
+  border-radius: 3px;
+}
+
+.gridSquare.selected {
+  transform: scale(1.1);  
+} 
+
+.rollBtn {
+  font-size: 20px;
+  padding: 12px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+}
